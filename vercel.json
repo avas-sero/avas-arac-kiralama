@@ -45,5 +45,9 @@
       "destination": "/arac-kiralama-sartlari.html",
       "permanent": true
     }
-  ]
+  ],
+  "framework": null,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "outputDirectory": "."
 }
