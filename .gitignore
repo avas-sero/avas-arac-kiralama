@@ -1,0 +1,9 @@
+.chrome-profile/
+.chrome-profile-mobile/
+.edge-profile/
+temporary screenshots/
+node_modules/
+.vercel/
+.env
+.DS_Store
+Thumbs.db

@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "node tools/avas-update.mjs",
+    "start": "node serve.mjs"
+  },
+  "devDependencies": {}
+}
