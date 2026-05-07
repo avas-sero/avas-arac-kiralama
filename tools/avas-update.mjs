@@ -1,9 +1,9 @@
 import { copyFileSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const domain = "https://www.avasarackiralama.com";
-const phoneRaw = "+905015992372";
-const phoneDisplay = "0501 599 23 72";
-const whatsappRaw = "905015992372";
+const phoneRaw = "+905541761335";
+const phoneDisplay = "0554 176 13 35";
+const whatsappRaw = "905541761335";
 const email = "info@avasarackiralama.com";
 const address = "Aydınevler, İnönü Caddesi No:22 34854 Maltepe / İstanbul";
 const brand = "AVAS Araç Kiralama";
@@ -213,7 +213,11 @@ writeFileSync("vercel.json", JSON.stringify({
     { source: "/css/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] },
     { source: "/js/(.*)", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] }
   ],
-  redirects: [{ source: "/kullanim-sartlari.html", destination: "/arac-kiralama-sartlari.html", permanent: true }]
+  redirects: [{ source: "/kullanim-sartlari.html", destination: "/arac-kiralama-sartlari.html", permanent: true }],
+  framework: null,
+  buildCommand: "npm run build",
+  installCommand: "npm install",
+  outputDirectory: "."
 }, null, 2), "utf8");
 writeFileSync("package.json", JSON.stringify({
   scripts: { build: "node tools/avas-update.mjs", start: "node serve.mjs" },
