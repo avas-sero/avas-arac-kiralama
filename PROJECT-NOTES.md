@@ -9,8 +9,8 @@ Bu dosya sonraki oturumlarda kaldığımız yerden devam etmek için referans do
 - Vercel proje adı: avas-arac-kiralama
 - Production URL: https://avas-arac-kiralama.vercel.app
 - Canonical/domain hedefi: https://www.avasarackiralama.com
-- İletişim telefonu: 0554 176 13 35
-- WhatsApp: 905541761335
+- İletişim telefonu: 0554 341 69 15
+- WhatsApp: 905543416915
 - E-posta: info@avasarackiralama.com
 
 ## Teknik Yapı

@@ -1,9 +1,9 @@
 import { copyFileSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const domain = "https://www.avasarackiralama.com";
-const phoneRaw = "+905541761335";
-const phoneDisplay = "0554 176 13 35";
-const whatsappRaw = "905541761335";
+const phoneRaw = "+905543416915";
+const phoneDisplay = "0554 341 69 15";
+const whatsappRaw = "905543416915";
 const email = "info@avasarackiralama.com";
 const address = "Aydınevler, İnönü Caddesi No:22 34854 Maltepe / İstanbul";
 const brand = "AVAS Araç Kiralama";
