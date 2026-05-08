@@ -7,7 +7,7 @@ const site = {
   phoneDisplay: "0554 341 69 15",
   whatsappRaw: "905543416915",
   email: "info@avasarackiralama.com",
-  address: "Aydınevler, İnönü Caddesi No:22 34854 Maltepe / İstanbul",
+  address: "Mesrutiyet Caddesi No:113 Tepebasi, Kat:4 No:16",
   logo: "logo.svg"
 };
 
@@ -49,10 +49,10 @@ const landingPages = [
     slug: "maltepe-arac-kiralama",
     keyword: "Maltepe araç kiralama",
     title: "Maltepe Araç Kiralama | AVAS Rent A Car",
-    description: "Maltepe araç kiralama hizmeti için Aydınevler ofisinden hızlı teslim, ekonomik, sedan, SUV, VIP ve aylık kiralama seçenekleri.",
+    description: "Maltepe araç kiralama hizmeti için Mesrutiyet Caddesi ofisinden hızlı teslim, ekonomik, sedan, SUV, VIP ve aylık kiralama seçenekleri.",
     h1: "Maltepe Araç Kiralama",
     place: "Maltepe",
-    intent: "Aydınevler, Küçükyalı, İdealtepe, Cevizli ve çevre mahallelerde pratik teslim"
+    intent: "Mesrutiyet Caddesi ve çevre teslim noktaları için pratik planlama"
   },
   {
     slug: "sabiha-gokcen-arac-kiralama",
@@ -326,10 +326,8 @@ function organizationSchema() {
     description: "Türkiye genelinde günlük araç kiralama, aylık araç kiralama, VIP araç kiralama ve kurumsal araç kiralama hizmetleri.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Aydınevler, İnönü Caddesi No:22",
-      postalCode: "34854",
-      addressLocality: "Maltepe",
-      addressRegion: "İstanbul",
+      streetAddress: site.address,
+      addressLocality: "Tepebasi",
       addressCountry: "TR"
     },
       areaServed: ["Türkiye", "İstanbul", "Maltepe", "Sabiha Gökçen Havalimanı", "İstanbul Havalimanı"],
@@ -467,7 +465,7 @@ function homeContent() {
     "Günlük araç kiralama, kısa süreli plan yapan kullanıcılar için pratik bir çözümdür. Hafta sonu programı, iş toplantısı, şehir dışından gelen misafir, bakımda olan kişisel araç veya acil ulaşım ihtiyacı gibi durumlarda günlük kiralama esnekliği yüksek bir seçenektir. Aylık araç kiralama ise daha düzenli kullanım isteyen bireyler ve şirketler için bütçe planlamasını kolaylaştırır. Özellikle geçici proje ekipleri, saha çalışanları, yönetici araç ihtiyacı veya kısa dönem filo desteği isteyen firmalar aylık kiralamadan yararlanabilir.",
     "VIP araç kiralama ve şoförlü araç kiralama hizmetleri, konfor, zaman ve temsil kalitesini öncelik haline getiren kullanıcılar için geliştirilmiştir. Mercedes Vito gibi geniş ve rahat araçlar; davet, toplantı, havalimanı karşılama, yönetici ulaşımı ve özel gün programlarında tercih edilir. Şoförlü seçeneklerde güzergah, saat, bekleme planı ve yolcu sayısı baştan değerlendirilir. Böylece kullanıcı yalnızca araca değil, planlı bir ulaşım deneyimine sahip olur.",
     "AVAS Araç Kiralama'nın kurumsal yaklaşımı, açık iletişim ve hızlı geri dönüş üzerine kuruludur. Telefon ve WhatsApp hattından gelen talepler ekip tarafından değerlendirilir, araç uygunluğu kontrol edilir ve kullanıcıya net teklif sunulur. Belgeler, teslim saati, teslim noktası, ödeme yöntemi ve kullanım koşulları önceden konuşulduğu için sürprizlerle karşılaşma ihtimali azalır. Bu yaklaşım özellikle İstanbul araç kiralama pazarında güven arayan kullanıcılar için önemli bir avantaj sağlar.",
-    "Maltepe ofis adresimiz Aydınevler, İnönü Caddesi No:22 34854 Maltepe / İstanbul konumundadır. Anadolu Yakası'nda yaşayan veya bu bölgeye yakın teslim isteyen kullanıcılar için Maltepe araç kiralama hizmeti pratik bir başlangıç noktası sunar. İletişim sayfasından telefon, WhatsApp ve e-posta bilgilerimize ulaşabilir, hızlı rezervasyon formuyla talebinizi iletebilirsiniz. Amacımız, araç kiralama sürecini karmaşık bir işlem olmaktan çıkarıp net, erişilebilir ve güven veren bir hizmet deneyimine dönüştürmektir.",
+    `Ofis adresimiz ${site.address}. İletişim sayfasından telefon, WhatsApp ve e-posta bilgilerimize ulaşabilir, hızlı rezervasyon formuyla talebinizi iletebilirsiniz. Amacımız, araç kiralama sürecini karmaşık bir işlem olmaktan çıkarıp net, erişilebilir ve güven veren bir hizmet deneyimine dönüştürmektir.`,
     "Araç kiralama kararı verirken yalnızca araç modeline bakmak çoğu zaman yeterli olmaz. Kiralama süresinin kaç gün olduğu, aracın hangi bölgede teslim alınacağı, dönüş noktasının farklı olup olmayacağı, yolcu sayısı, bagaj ihtiyacı, şehir dışı kullanım planı ve ek sürücü talebi gibi bilgiler doğru fiyatlandırma için önemlidir. İstanbul araç kiralama taleplerinde bu detaylar yoğun trafik, köprü geçişleri, havalimanı saatleri ve semtler arası mesafeler nedeniyle daha da belirleyici hale gelir.",
     "AVAS Araç Kiralama, kullanıcıya uygun araç grubunu önerirken kullanım amacını merkeze alır. Tek kişi şehir içi kullanımda ekonomik araç kiralama daha mantıklı olabilirken, aile seyahatlarında sedan veya SUV seçenekleri daha konforlu sonuç verir. Kurumsal misafir ağırlama, özel etkinlik veya transfer planlarında VIP araç kiralama daha doğru bir tercih olabilir. Bu yönlendirme, kullanıcının gereksiz maliyet üstlenmesini engeller ve seyahat deneyimini daha verimli hale getirir.",
     "İstanbul'da günlük araç kiralama çoğu zaman ani gelişen ihtiyaçlar için tercih edilir. Kişisel aracın serviste olması, şehir dışından gelen bir misafirin karşılanması, kısa süreli iş programı veya hafta sonu kaçamağı gibi senaryolarda hızlı rezervasyon büyük kolaylık sağlar. Maltepe araç kiralama tarafında ise yerel erişim avantajı öne çıkar; Anadolu Yakası'nda yaşayan kullanıcılar için ofis konumu ve WhatsApp destek hattı karar sürecini hızlandırır.",
@@ -516,7 +514,7 @@ ${header()}
           <a class="btn btn-whatsapp" href="${wa("Merhaba, araç kiralama hakkında bilgi almak istiyorum.")}" target="_blank" rel="noopener">WhatsApp'tan Ulaş</a>
           <a class="btn btn-outline" href="#araclar">Araçları İncele</a>
         </div>
-        <div class="trust-grid"><article><strong>7/24</strong><span>iletişim ve teklif</span></article><article><strong>Maltepe</strong><span>Aydınevler ofis</span></article><article><strong>VIP</strong><span>ve ekonomik seçenekler</span></article></div>
+        <div class="trust-grid"><article><strong>7/24</strong><span>iletişim ve teklif</span></article><article><strong>Ofis</strong><span>Mesrutiyet Caddesi</span></article><article><strong>VIP</strong><span>ve ekonomik seçenekler</span></article></div>
       </div>
       <aside class="hero-panel" aria-label="Hızlı rezervasyon formu">
         <div class="reservation-card" id="rezervasyon">
@@ -570,7 +568,7 @@ function landingText(page) {
     `VIP araç kiralama ve şoförlü araç kiralama taleplerinde konfor, temsil kalitesi ve zaman yönetimi öne çıkar. Misafir karşılama, havalimanı transferi, yönetici ulaşımı, özel davet veya yoğun toplantı günü gibi planlarda geniş ve konforlu araçlar tercih edilebilir. Şoförlü kullanım talep edildiğinde güzergah, bekleme süresi ve program akışı ayrıca değerlendirilir. Böylece yalnızca araç değil, bütün ulaşım deneyimi planlanmış olur.`,
     `Ekonomik araç kiralama seçenekleri, bütçesini kontrol etmek isteyen kullanıcılar için önemli avantaj sağlar. Yakıt tüketimi düşük, şehir içinde kullanımı kolay ve günlük ihtiyaçlara uygun modeller özellikle İstanbul trafiğinde pratik bir tercihtir. Sitede yer alan araç fiyatları günlük başlangıç bilgisidir; 1500 TL altında kalan tüm fiyatlar 1500 TL seviyesine yükseltilmiştir. Net fiyat; tarih, süre, teslim noktası, araç grubu ve ek hizmetlere göre teklif aşamasında kesinleştirilir.`,
     `Kurumsal araç kiralama tarafında firmaların beklentisi genellikle düzenli iletişim, belgeli süreç, zamanında teslim ve esnek çözüm üretimidir. AVAS Araç Kiralama; proje ekipleri, saha çalışanları, yönetici ulaşımı ve geçici filo ihtiyaçları için günlük veya aylık araç kiralama alternatifleri sunar. Şirketler için teklif akışı sade tutulur; kullanım amacı, araç sayısı, süre ve lokasyon bilgileri alındıktan sonra uygun araç grubu önerilir.`,
-    `Maltepe ofis adresimiz ${site.address}. Bu konum, Anadolu Yakası'nda araç teslim almak isteyen kullanıcılar için pratik bir merkezdir. ${page.h1} talebiniz için telefonla arayabilir, WhatsApp üzerinden hızlı teklif alabilir veya iletişim formunu doldurabilirsiniz. Ekibimiz, araç uygunluğunu kontrol ederek size en kısa sürede dönüş yapar ve kiralama adımlarını açık şekilde paylaşır.`,
+    `Ofis adresimiz ${site.address}. ${page.h1} talebiniz için telefonla arayabilir, WhatsApp üzerinden hızlı teklif alabilir veya iletişim formunu doldurabilirsiniz. Ekibimiz, araç uygunluğunu kontrol ederek size en kısa sürede dönüş yapar ve kiralama adımlarını açık şekilde paylaşır.`,
     `AVAS Araç Kiralama'nın amacı, araç kiralama sürecini yorucu bir araştırma olmaktan çıkarıp güven veren bir hizmet deneyimine dönüştürmektir. ${page.keyword}, İstanbul araç kiralama, Maltepe araç kiralama, günlük araç kiralama, aylık araç kiralama ve VIP araç kiralama gibi farklı aramalarda kullanıcıların ihtiyacı aynı noktada birleşir: doğru araç, doğru zaman, net fiyat ve ulaşılabilir destek. Bu yaklaşım sayesinde rezervasyonun ilk temasından aracın teslimine kadar daha sakin ve kontrollü bir süreç yaşanır.`,
     `${page.h1} sayfasında yer alan bilgiler, kullanıcıya yalnızca genel tanıtım sunmak için değil, doğru karar vermesine yardımcı olmak için hazırlanmıştır. Araç kiralama sürecinde teslim noktası, iade saati, araç sınıfı, yolcu sayısı, bagaj durumu ve ek hizmet beklentisi baştan paylaşıldığında teklif daha isabetli olur. Ekibimiz bu bilgileri aldıktan sonra uygun araçları kontrol eder ve talebe göre ekonomik, sedan, SUV, van, premium veya VIP araç kiralama seçeneklerini karşılaştırmalı şekilde sunabilir.`,
     `Rezervasyon aşamasında telefon ve WhatsApp iletişimi özellikle zaman kazandırır. Kullanıcı uzun formlar arasında kaybolmadan, ${site.phoneDisplay} numarasından arayarak veya ${site.phoneDisplay} WhatsApp hattına yazarak hızlı dönüş alabilir. Adres, tarih ve araç grubu netleştikçe kiralama koşulları da açık hale gelir. Bu şeffaf akış, ${page.keyword} arayan kullanıcıların güvenli, pratik ve planlı bir hizmet almasına yardımcı olur.`
