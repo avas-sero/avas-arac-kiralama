@@ -1,9 +1,12 @@
 import { copyFileSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 
 const domain = "https://www.avasarackiralama.com";
-const phoneRaw = "+905543416915";
-const phoneDisplay = "0554 341 69 15";
-const whatsappRaw = "905543416915";
+const phoneRaw = "+905015950688";
+const phoneDisplay = "0501 595 06 88";
+const whatsappRaw = "905015950688";
+const oldPhoneRaw = "+905543416915";
+const oldPhoneDisplay = "0554 341 69 15";
+const oldWhatsappRaw = "905543416915";
 const email = "info@avasarackiralama.com";
 const address = "Mesrutiyet Caddesi No:113 Tepebasi, Kat:4 No:16";
 const brand = "AVAS Araç Kiralama";
@@ -31,6 +34,9 @@ for (const file of textFiles) {
     .replaceAll(`${oldBrand} Araç Kiralama`, brand)
     .replaceAll(`${oldBrand} AraÃ§ Kiralama`, brand)
     .replaceAll(oldBrand, shortBrand)
+    .replaceAll(oldPhoneRaw, phoneRaw)
+    .replaceAll(oldPhoneDisplay, phoneDisplay)
+    .replaceAll(oldWhatsappRaw, whatsappRaw)
     .replaceAll("seyahat", "seyahat")
     .replaceAll("Aydınevler Rent A Car", `${shortBrand} Rent A Car`)
     .replaceAll("İstanbul ve Maltepe", "Türkiye Geneli")
