@@ -3,9 +3,9 @@ import { writeFileSync } from "node:fs";
 const site = {
   name: "AVAS Araç Kiralama",
   domain: "https://www.avasarackiralama.com",
-  phoneRaw: "+905015950688",
-  phoneDisplay: "0501 595 06 88",
-  whatsappRaw: "905015950688",
+  phoneRaw: "+905543416923",
+  phoneDisplay: "0554 341 69 23",
+  whatsappRaw: "905543416923",
   email: "info@avasarackiralama.com",
   address: "Mesrutiyet Caddesi No:113 Tepebasi, Kat:4 No:16",
   logo: "logo.svg"
